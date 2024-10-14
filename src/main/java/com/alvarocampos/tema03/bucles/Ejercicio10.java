@@ -14,12 +14,13 @@ public class Ejercicio10 {
                 suma=suma+num;
                 if (num!=0){
                     System.out.println("Introduzca un valor numerico que sea un numero natural: ");
-                    System.out.println("Cuando un cero sea introducido el programa se detentra y dara la suma de todos los numeros. ");
+                    System.out.println("Cuando un cero sea introducido el programa se detendra y dara la suma de todos los numeros. ");
                     int numDos = Integer.parseInt(scanner.nextLine());
                     num=numDos;
                 }
         }while (num!=0);
 
         System.out.println("Total de la suma: "+suma);
+        scanner.close();
     }
 }
