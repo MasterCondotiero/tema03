@@ -1,4 +1,4 @@
-package com.alvarocampos.tema03;
+package com.alvarocampos.tema03.estructuras;
 import java.util.Scanner;
 
 public class Ejercicio09 {

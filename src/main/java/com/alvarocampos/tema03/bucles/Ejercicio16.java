@@ -14,15 +14,12 @@ public class Ejercicio16 {
 
         System.out.println("Vamos a jugar al 11.");
 
-        while(){
-
-        }
         for (int i=1; i<=lanzamientos; i++) {
             int tirada = dado.nextInt(1,7 );
             if (tirada>11){
                 suma=suma+tirada;
                 System.out.println("Has perdido, "+"el valor total que tienes es "+suma);
-                int lanzamientos = Integer.parseInt(scanner.nextLine());
+                int tiradas = Integer.parseInt(scanner.nextLine());
                 winCPU++;
             } else if (tirada==11) {
                 System.out.println("Has ganado");
